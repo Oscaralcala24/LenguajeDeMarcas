@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+    <style>
+        table{
+            border-color: coral;
+            border-collapse: collapse ;
+            border:1px solid coral;
+        }
+        td{
+            padding-left: 40px;
+            padding-right: 30px;
+            
+        }
+        th{
+            text-align: left;
+        }
+        tfoot{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+    <table style="padding: 30px;">
+        <thead style="background-color:coral;">
+            <tr>
+                <th>Leave Form</th>
+                <th>
+                    <select style="background-color: coral;" name="acciones">
+                    <option>More actions</option>
+                    <option>e</option>
+                    <option>w</option>
+                </th>
+            </tr>
+        </thead>
+        <tbody style="padding: 50px;">
+            <tr>
+                <td><label for="mail">Employee Email</label></td>
+                <td>
+                    <select name="mail" disabled>
+                    <option>appuser@zohocreator.com</option>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id">Employee Id</label></td>
+                <td>
+                    <input type="text" name="id" value="232" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name">Employee Name</label></td>
+                <td>
+                    <input type="text" name="name" value="appuser" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="designation">Designation</label></td>
+                <td>
+                    <input type="text" name="designation" value="Team Leader" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="mail">Leave type</label></td>
+                <td>
+                    <select name="mail" disabled>
+                    <option>a</option>
+                    <option>b</option>
+                    <option>c</option>
+                    <option>d</option>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="fechaInicio">From</label></td>
+                <td>
+                    <input type="date" name="fechaInicio">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="fechaFinal">To</label></td>
+                <td>
+                    <input type="date" name="fechaFinal">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="noofdays">No of Days</label></td>
+                <td>
+                    <input type="text" name="noofdays">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="razon">Reason</label></td>
+                <td>
+                    <textarea type="text" name="razon" rows="8"></textarea>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color:darkgrey;">
+            <tr>
+                <td colspan="2">
+                    <label for="submit"></label>
+                    <input style="background-color: coral;" type="submit" name="submit">
+                    <label for="reset"></label>
+                    <input style="background-color: coral;" type="reset" name="reset">
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    </form>
+</body>
+</html>
