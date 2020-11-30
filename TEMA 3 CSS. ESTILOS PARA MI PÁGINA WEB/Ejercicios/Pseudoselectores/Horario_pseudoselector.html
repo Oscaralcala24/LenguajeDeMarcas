@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilopseudoselector.css">
+</head>
+<body>
+    <table>
+        <caption><a href="http://aulavirtual.iesalixar.org" target="_blnk">HORARIO DE CLASE CURSO 2018-2019</a></caption>
+        <thead>
+            <tr>
+                <th>Horas</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00</td>
+                <td rowspan="2">Matematicas</td>
+                <td>Lengua</td>
+                <td>Ingles</td>
+                <td colspan="2">Ciencias</td>
+            </tr>
+            <tr>
+                <td>9:00</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matematicas</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <th colspan="5">RECREO</th>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td>Ingles</td>
+                <td rowspan="2">Ciencias</td>
+                <td>Matematicas</td>
+                <td>Lengua</td>
+                <td>Historia</td>
+            </tr>
+            <tr>
+                <td>11:30</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matematicas</td>
+                <td>Ingles</td>
+            </tr>
+        </tbody>
+    </table>
+    <form method="POST" action=" ">
+        <p>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" required></input>
+        </p>
+        <input type="submit" value="Enviar horario">
+    </form>
+</body>
+</html>
