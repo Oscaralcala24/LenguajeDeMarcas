@@ -1,0 +1,6 @@
+¿por qué los últimos 5 párrafos se muestran de forma diferente que los 2 primeros?
+
+Los ultimos 5 ultimos parrafos se muestran de forma diferente porque lo se le esta aplicando unos estilos.
+A los parrafos le estamos aplicando unos atributos, pero los dos primeros tienen una clase  llamada .verse,
+y a esta clase le estamos aplicanndo unos estilos por eso aparecen diferentes. Estos estilos se aplican sobre
+el resto porque al darle una clase, son mas especificos y predominan sobre el resto.

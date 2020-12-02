@@ -1,0 +1,34 @@
+body {background-color: tan} === /*Le estamos dando al body de la web un fondo de color*/
+
+
+h1 {color:maroon; font-size:20pt} === /*Le estamos dando a todos los h1 que existan, el h1 da por defecto un tamaño mas grande al de por defecto 
+y ademas resalta en negrita, a este le aplicamos la letra de color marron que estara resaltada en negrita y el tamaño de letra de 20 px*/
+
+
+hr {color:navy} === /*Aplicamos estilo a hr, que es una division con una linea horizontal(separador), de color navy.*/
+
+
+p {font-size:12pt; margin-left: 15px} === /*Aplicamos estilos a todos los parrafos,p(parrafo) da un 
+salto de linea por defecto y da margen con el resto de cosas, estos tendran un tamaño de letra de 12pt y un margen a la izquierda de 15px 
+que es el espacio transparente situado entre el elemento y el borde.*/
+
+
+
+p.verse {color:maroon; margin-left: 60px} ===  /*Aplicamos estilos a todos los parrafos que tengan una clase llamada verse, estos tendran un color marron y
+ un margen a la izquierda de 60px que es el espacio transparente situado entre el elemento y el borde. */
+
+
+
+a:link     {color:green} === /*Aplicamos estilos a los link existentes, el pseudoselector :link selecciona a todos los que sean un link, pero ya lo son.
+A estos link le aplicaremos por defecto un color verde, este tambien tendra un subrayado.*/
+
+
+a:visited  {color:yellow} === /*Aplicaremos estilos a los link con el pseudoselector :visited, esto quiere decir que solo los link que sean visitados
+apareceran con el atributo de color amarillo que le hemos dado*/
+
+
+a:hover    {color:black} === /*Aplicaremos un estilos a los link solo cuando el raton pase por encima de ese link con el pseudoselector :hover,
+este tendra cuando pasemos el raton por encima el color negro, cambiara de color. de verde o amarillo a negro.*/
+
+
+a:active   {color:blue} ===  /*Aplicaremos un estilos a los link solo cuando el link este activo con el pseudoselector :active, le daremos el color azul.*/
