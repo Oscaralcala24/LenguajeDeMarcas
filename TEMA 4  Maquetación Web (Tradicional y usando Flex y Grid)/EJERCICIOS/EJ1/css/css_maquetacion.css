@@ -1,0 +1,119 @@
+ *{
+     box-sizing: border-box;
+ }
+ body {
+     background-color: rgb(187, 184, 184);
+ }
+ #caja_grande{
+     background-color: rgb(185, 236, 108);
+     width: 80%;
+     height: 750px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 100px;
+ }
+ aside{
+     width: 5%;
+     height: 500px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px ;
+     border: 2px solid black;
+     text-align: center;
+     float: left;
+     position: fixed;
+     top: 50%;
+     margin-top: -250px;
+     z-index: 100;
+     background-color: rgb(187, 184, 184)
+ }
+nav div{
+    text-align: center
+}
+ #imagen_avatar{
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+ }
+ #tumbonas{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 15%;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    z-index: 5;
+    transform: rotate(-45deg);
+    margin-left: 570px;
+    margin-top: 160px;
+    position: absolute;
+ }
+ #lago{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 15%;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    z-index: 4;
+    transform: rotate(45deg);
+    margin-left: 700px;
+    margin-top: 200px;
+    position: absolute;
+ }
+ #camino{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 15%;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    z-index: 3;
+    transform: rotate(-15deg);
+    margin-left: 800px;
+    margin-top: 250px;
+    position: absolute;
+ }
+ #vino{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 15%;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    z-index: 2;
+    transform: rotate(15deg);
+    margin-left: 900px;
+    margin-top: 300px;
+    position: absolute;
+ }
+ figure img {
+     width: 80%;
+     padding: 5px;
+ }
+ figure{
+     background-color: white;
+ }
+ #barraprincipal{
+    background-color: rgb(54, 52, 52);
+    color: white;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+ }
+ #lista{
+    list-style-type: none;
+    margin-left: -40px;
+ }
+ .lista2{
+     display: inline-block;
+     list-style-type: none;
+     padding-right: 200px;
+      line-height: 50px;
+ }
+ #sticky{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+
+ }
