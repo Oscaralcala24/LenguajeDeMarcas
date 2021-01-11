@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+body{
+    background-color: #30414b;
+}
+div{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50px;
+}
+header{
+    width: 20%;
+    height: 30px;
+    font-size: 3em;
+    font-style: oblique;
+    color: #487997;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+.buscador{
+    width: 30%;
+    left: 76%;
+    bottom: 17px;
+    position: relative;
+}
+.navegacion{
+    height: 50px;
+    background-color: #729ab3;
+    position: relative;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+.principal{
+    height: 300px;
+    margin-top: 30px;
+}
+nav .i2{
+    font-style: oblique; 
+    background-color: #c3d6e2;
+    border-radius: 5px;
+    width: 80%;
+    height: 25px;
+}
+ul{
+    padding: 0%;
+    padding-left: 1%;
+    margin: 0px;
+}
+.opciones{ 
+    display: inline-block;
+    list-style-type: none;
+    color: #a7bdca;
+    padding-right: 6%;
+    line-height: 50px;
+}
+.opciones .enlaces{
+    width: 70px ;
+    background-color: #729ab3;
+    padding: 0;
+    border: none;
+    color: white;
+    font-style: oblique;
+    font-size: 1em;
+    text-decoration: none;
+}
+.encabezadofotos{
+    color: #3d7589;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 45px;
+    font-size: 2.7em;
+    
+}
+.textofotos{ 
+    color: #a7bdca;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 0px;
+    font-size: 1.3em;
+    position: relative;
+    top: 3px;
+}
+.fotosprincipales{
+    background-color:#fefefe;
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+}
+.foto1{
+    position: relative;
+    width: 23%;
+    height: 180px;
+    left: 2%;
+}
+.comentario{
+    height: 40px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+span{
+    color: #699eb1;
+    font-size: 1.1em;
+    line-height: 35px;
+    font-style: oblique;
+}
+.enlaceVIP{
+    float: right;
+    width: 30%;
+    height: 38px;
+    text-align: center;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #3d7589;
+    line-height: 37px;
+    font-style: oblique;
+
+}
+.bloques3{
+    height: 225px;
+}
+.services{
+    width: 32%;
+    height: 100%;
+    left: 0%;
+    position: absolute;
+    background-color:#80c3dbb7;
+}
+.encabezadoscajones{
+    background-color: #30515e;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    padding-left: 10px;
+    color: #a7bdca;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+.icono{
+    width: 8%;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.products{
+    width: 32%;
+    position: absolute;
+    left: 34%;
+    background-color:#80c3dbb7;
+    height: 100%;
+}
+.aboutus{
+    width: 32%;
+    right: 0%;
+    position: absolute;
+    background-color:#80c3dbb7;
+    height: 100%;
+}
+.textocajones{
+    padding-left: 10px;
+    font-size: 0.9em;
+    color: #30515e;
+}
+.opcionesdiseño{
+    color: #262f35;
+    list-style-type: disc;
+    padding-bottom: 10px;
+    margin-left: 25px;
+}
+.fotosproductos{
+    width: 27%;
+    height: 70px;
+    margin: 3px;
+    border-radius: 0%;
+}
+.fotomargen{
+    margin-left: 17px;
+}
+.cajonblog{
+    height: 225px;
+}
+.blog{
+    width: 100%;
+    height: 100%;
+    top: 10%;
+    background-color:#80c3dbb7;
+    position: relative;
+}
+.iconoblog{
+    width: 2.5%;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}.imagenblog1{
+    float: left;
+    width: 35%;
+    height: 150px;
+    margin-left: 3%;
+    margin-right: 2%;
+    border-radius: 0px;
+}
+.imagenblog2{
+    float: left;
+    width: 40%;
+    height: 150px;
+    margin-left: 3%;
+    margin-right: 2%;
+    border-radius: 0px;
+}
+.primeraparteblog{
+    width: 50%;
+    left: 0%;
+    top: 25%;
+    position: absolute;
+}
+.tituloluzblog{
+        font-size: 1.5em;
+        color: #262f35;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-style: oblique;
+}
+.segundaparteblog{
+    width: 50%;
+    margin-left: 0%;
+    left: 50%;
+    position: absolute;
+}
+.textocajonblog{
+    padding-left: 10px;
+    margin-top: 0px;
+    font-size: 0.9em;
+    color: #30515e;
+}
