@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 10px auto;
+    width: 80%;
+    height: 1000px;
+    position: relative;
+}
+/* ENCABEZADO */
+#header{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    float: left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h1{
+    color:white;
+    float: left;
+    width: 50%;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+#identificacion{
+    margin-left: 28%;
+    margin-right: 0%;
+    width: 22%;
+    float: left;
+    color: white;
+    margin-top: 35px;
+}
+/*BARRA NAV*/
+#nav{
+    float: left;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(60, 109, 5, 0.637);
+}
+#nav div{
+    float: left;
+    margin-right: 2%;
+    margin-left: 1%;
+    color: white;
+    line-height: 25px;
+}
+/*PRINCIPAL*/
+#principal{
+    width: 95%;
+    height: 470px;
+    margin: auto;
+}
+#aside{
+    width: 17%;
+    float: left;
+    height: 470px;
+}
+#menuprincipal{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(100, 148, 237, 0.616);
+    border-radius: 5px;
+}
+#menuprincipal h4{
+    width: 90%;
+    height: 20px;
+    margin: 10px auto;
+    padding-top: 20px;
+}
+#menuprincipal img{
+    width: 90%;
+    height: 150px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+#contenidogeneral{
+    width: 60%;
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 3%;
+}
+#contenidogeneral #imagencolegio img{
+    width: 80%;
+    height: 170px;
+    float: left;
+    margin-left: 7%;
+    margin-right: 3%;
+}
+#categorias{
+    width: 95%; 
+    background-color: rgba(135, 169, 233, 0.603);
+    height: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#tiposcategorias{
+    width: 95%;
+    height: 190px;
+    background-color: rgba(135, 169, 233, 0.603);
+    float: left;
+    border-radius: 5px;
+}
+#tiposcategorias img{
+    float: right;
+    width: 10%;
+    height: 65px;
+    margin-top: 120px;
+    margin-right: 5px;
+}
+#tiposcategorias ul{
+    padding-left: 30px;
+}
+#tiposcategorias ul li{
+    list-style-type: none;
+    color: rgb(60, 109, 5);
+    margin-bottom: 10px;
+}
+/*CALENDARIO*/
+#calendario{
+    float: left;
+    width: 20%;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(100, 148, 237, 0.616);
+}
+#calendario h4{
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+#calendario img{
+    width: 80%;
+    margin-left: 5%;
+    height: 100px;
+}
+/*FOOTER*/
+#footer{
+    float: left;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(26, 23, 23);
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+#footer p{
+    margin:0px;
+    text-align: center;
+}
+#footer img{
+    width: 7%;
+    height: 22px;
+}
+#nav div:hover{
+    color: red;
+    background-color: saddlebrown;
+}
