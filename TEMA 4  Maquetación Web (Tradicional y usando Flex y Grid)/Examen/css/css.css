@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+#container{
+    width: 90%;
+    margin: 10px auto;
+}
+/*Header*/
+header{
+    float: left;
+    height: 90px;
+    width: 100%;
+}
+header div img{
+    float: left;
+    width: 20%;
+}
+aside{
+    float: right;
+    width: 20%;
+}
+p input{
+    float:left;
+    width: 90%;
+    margin-top: 10px;
+}
+aside p img{
+    width: 10%;
+    float: left;
+    margin-top: 7px;
+}
+aside img{
+    float: right;
+    width: 10%;
+    margin-top: 10px;
+}
+/*NAV*/
+nav{
+    width: 100%;
+    float: left;
+    background-color: magenta;
+    height: 40px;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 1%;
+    margin-top: 0px;
+}
+nav ul li{
+    float: left;
+    color: white;
+    font-size: 1.1em;
+    margin-right: 5%;
+    height: 40px;
+    padding-top: 10px;
+}
+nav ul li:hover{
+    background-color: red;
+    color:black;
+}
+/*Contenido principal*/
+main{
+    width: 100%;
+    height: 550px;
+}
+#derecha{
+    float: right;
+    width: 25%;
+    height: 450px;
+}
+#derecha h3{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#derecha img{
+    width: 100%;
+    height: 370px;
+}
+#derecha p{
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+#banner{
+    width: 74%;
+    height: 200px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 15px;
+    position: relative;
+}
+#banner img{
+    width: 100%;
+}
+#puntos{
+    position: absolute;
+    left: 50%;
+    top: 87%;
+    color: magenta;
+    font-weight: bold;
+}
+#sliderderecha{
+    position: absolute;
+    color: magenta;
+    top: 60%;
+    right: 1%;
+    font-size: 2em;
+    font-weight: bold;
+}
+#sliderizquierda{
+    position: absolute;
+    color: magenta;
+    top: 60%;
+    left: 1%;
+    font-size: 2em;
+    font-weight: bold;
+}
+#cajas{
+    float: left;
+    width: 74%;
+    height: 200px;
+    text-align: center;
+}
+#cajas div{
+    float: left;
+    width: 17%;
+    height: 170px;
+    margin-top: 25px;
+    margin-right: 3%;
+    border: 1px solid magenta;
+    border-radius: 10px;
+}
+#primeracaja{
+    margin-left: 20%;
+}
+#cajas div img{
+    width: 50%;
+    margin-top: 20px;
+}
+#cajas div p{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+/*footer*/
+footer{
+    float: left;
+    width: 100%;
+    height: 60px;
+    background-color: magenta;
+    text-align: center;
+}
+footer p{
+    color: white;
+    padding-top: 4px;
+}
