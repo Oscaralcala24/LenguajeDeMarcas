@@ -1,0 +1,391 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    background-color: rgba(252,251,247,255)
+}
+/*RESET*/
+h1,h2,h3,h4,p{
+    margin: 0%;
+    padding: 0.5px;
+}
+.container{
+    margin: 10px auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+/*----------------------------------------------------------------MOVIL---------------------------------------------------------*/
+/*HEADER*/
+
+header{
+    width: 100%;
+}
+header div{
+    background-color: rgba(226,224,224,255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+header div img{
+    width: 35%;
+    margin: 5px;
+}
+
+/*MAIN*/
+main{
+    text-align: center;
+    padding-top: 5px;
+    justify-content: center;
+}
+main div{
+    width: 100%;
+    text-align: center;
+}
+main div h3{
+    font-size: 5vw;
+    color: grey;
+    background: transparent;
+}
+main div h1{
+    font-size: 10vw;
+    color: rgba(122,36,120,255);
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    padding-bottom: 0px; 
+    background: transparent;
+}
+main div img{
+    display: none;
+}
+main picture img{
+    width: 70%;
+}
+
+/*ARTICLE*/
+
+article{
+    padding-top: 40px;
+}
+article h1{
+    font-size: 7vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: rgba(122,36,120,255);
+    text-align: center;
+    padding-bottom: 10px;
+}
+article hr{
+    margin-bottom: 50px;
+}
+article p{
+    text-align: center;
+    font-size: 4vw;
+    font-weight:200;
+}
+article p strong{
+    font-weight:900;
+}
+article div{
+    padding-top: 30px;
+    text-align: center;
+}
+article div picture img{
+    width: 70%;
+}
+
+/*FORMULARIO*/
+
+.formulario h1{
+    text-align: center;
+    color: grey;
+    font-size: 8vw;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.formulario div:first-child input, .formulario div:first-child label{
+    margin-left: 20px;
+}
+.formulario form div:last-child{
+    text-align: center;
+    margin-top: 20px;
+}
+.formulario form div input:last-child{
+    margin-top: 20px;
+    background-color:rgba(122,36,120,255);
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    border: 1px;
+    height: 30px;
+}
+.formulario form div:last-child label{
+    font-weight: 500;
+}
+.formulario form div:first-child label{
+    font-weight:bold;
+}
+.formulario form div:first-child input{
+    border: 1px solid rgba(202, 196, 196, 0.699);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+}
+form div:first-of-type input{
+    width: 40vw;
+}
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(226,224,224,255);
+    text-align: center;
+    margin-top: 20px;
+}
+footer p{
+    text-align: center;
+    background-color: rgba(226,224,224,255);
+    color: rgba(122,36,120,255);
+    padding: 10px;
+    padding-bottom: 15px;
+}
+footer a i{
+    width: 20%;
+    background-color: rgba(226,224,224,255);
+    color: rgba(122,36,120,255);;
+}
+footer a{
+    text-decoration: none;
+    background-color: rgba(226,224,224,255);
+}
+footer a:nth-child(5), footer a:nth-child(3){
+    display: none;
+}
+
+
+/*-------------------------------------------------TABLET-------------------------------------------------------*/
+
+@media screen and (min-width: 576px){
+
+    /*HEADER TABLET*/
+
+    header div img{
+        width: 25%;
+        margin: 10px;
+    }
+    /*ARTICLE TABLET*/
+    article h1{
+        font-size: 5vw;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    article p{
+        font-size: 2.5vw;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    article div picture img{
+        width: 33%;
+        margin: 10px;
+    }
+    /*FOOTER TABLET*/
+
+    footer a:nth-child(5), footer a:nth-child(3){
+        display:initial;
+    }
+    footer a i{
+        width: 10%;
+    }
+    /*FORMULARIO TABLET*/
+    
+    .formulario h1{
+        font-size: 5vw;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    form div:first-of-type input{
+        width: 30vw;
+    }
+    .formulario form div:first-child label{
+        font-size: 3vw;
+    }
+}
+
+/*--------------------------PANTALLA ORDENADOR-------------------------------------*/
+
+@media screen and (min-width: 993px){
+.container{
+        margin: 10px auto;
+        width: 80%;
+        justify-content: left;
+}
+
+/*HEADER ORDENADOR*/
+
+header div{
+        justify-content: left;
+}
+header div img{
+    width: 20%;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+/*MAIN ORDENADOR*/
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+}
+main picture{
+    width: 22%;
+}
+main picture img{
+    width: 100%;
+}
+main div{
+    width: 70%;
+    text-align: center;
+    order: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+main div h3{
+    font-size: 3vw;
+}
+main div h1{
+    font-size: 6vw;
+}
+main div img{
+    display: initial;
+    width: 100%;
+}
+
+/*ARTICLE ORDENADOR*/
+article{
+    display: flex;
+    flex-flow: row wrap;
+    width: 65%;
+}
+article h1{
+    font-size: 2.3vw;
+    width: 100%;
+    text-align: left;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+article hr{
+    width: 100%;
+    text-align: left;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 30px;
+}
+article p{
+    text-align: left;
+    font-size: 1.2vw;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+article div{
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+article div picture img{
+    position: absolute;
+}
+article div picture .foto5{
+    width: 20%;
+    left: 15%;
+    top: 55px;
+    z-index: 1;
+}
+article div picture .foto4{
+    width: 25%;
+    left: 23%;
+    top: 40px;
+    z-index: 2;
+}
+article div picture .foto3{
+    width: 30%;
+    left: 35%;
+    top: 30px;
+    z-index: 3;
+}
+article div picture .foto1{
+    width: 25%;
+    left: 53%;
+    top: 40px;
+    z-index: 2;
+}
+article div picture .foto2{
+    width: 20%;
+    left: 67%;
+    top: 55px;
+}
+article div picture img{
+    transition: transform .6s;
+}
+article div picture img:hover{
+    transform: scale(1.5);
+    z-index: 99;
+}
+
+
+/*FORMULARIO ORDENADOR*/
+.formulario{
+    width: 35%;
+}
+.formulario h1{
+    font-size: 1.7vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.formulario div:first-child input, .formulario div:first-child label{
+    margin-left: 40px;
+}
+.formulario form div:last-child{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10%;
+}
+.formulario form div input:last-child{
+    margin-top: 20px;
+    width: 60%;
+}
+.formulario form div:first-child input{
+    border: 1px solid rgba(202, 196, 196, 0.699);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+form div:first-of-type input{
+    width: 20vw;
+}
+.formulario form div:last-child label{
+    width: 10%;
+}
+.formulario form div:first-child label{
+        font-size: 1.5vw;
+    }
+
+/*FOOTER*/
+
+i{
+    transition: transform .6s;
+}
+i:hover{
+    transform: scale(1.5);
+}
+}
+
+
+
+
+
