@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    background-color: rgba(252,251,247,255)
+}
+header .col-12{
+    background-color: gray;
+}
