@@ -91,6 +91,9 @@ input:last-child{
     .h1formulario{
         font-size: 2vw;
     }   
+    div:last-child label:last-child{
+        font-size: 0.9vw;
+    }
     .foto5{
         width: 20%;
         left: 15%;
