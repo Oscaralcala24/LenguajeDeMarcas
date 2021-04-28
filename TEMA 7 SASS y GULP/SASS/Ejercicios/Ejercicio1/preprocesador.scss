@@ -1,41 +1,45 @@
-
-$border-figure: "0.5px solid black";
-
-.container{
+.container {
     $centrado: 10px auto;
     $anchura-container: 80%;
     width: $anchura-container;
     margin: $centrado;
 }
-header{
+
+header {
     $color-header: #9b6f91;
-    
+
     background-color: $color-header;
 
-    ul{
-        $letras-blancas: rgb(255,255,255);
-        $padding-nav:20px;
+    ul {
+        $letras-blancas: rgb(255, 255, 255);
+        $padding-nav: 20px;
         list-style: none;
-        padding-top:$padding-nav;
-        padding-bottom:$padding-nav;
-        li{
+        padding-top: $padding-nav;
+        padding-bottom: $padding-nav;
+
+        li {
             display: inline;
-            $separacion-nav:30px;
-            margin-right:$separacion-nav;
-            &:hover{
+            $separacion-nav: 30px;
+            margin-right: $separacion-nav;
+
+            &:hover {
                 color: $letras-blancas;
             }
-            &:first-child{
+
+            &:first-child {
                 color: $letras-blancas;
             }
         }
-        
+
     }
 }
-main{ 
+
+main {
     display: flex;
     flex-flow: row wrap;
-    figure{
+
+    figure {
+        $border-figure: "0.5px solid black";
         $anchura-figure: 25%;
         $padding-figure: 15px;
         $borde-redondado-figure: 1rem;
@@ -44,8 +48,8 @@ main{
         padding: $padding-figure;
         border-radius: $borde-redondado-figure;
         text-align: center;
-        
-        img{
+
+        img {
             $anchura-imagen: 95%;
             $borde-redondado-img: 2rem;
             border-radius: $borde-redondado-img;
