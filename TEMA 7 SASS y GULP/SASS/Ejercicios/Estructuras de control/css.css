@@ -1,0 +1,16 @@
+td:nth-child(1) {
+  color: red;
+  background-color: blue;
+}
+
+td:nth-child(2) {
+  color: blue;
+  background-color: red;
+}
+
+td:nth-child(3) {
+  color: white;
+  background-color: green;
+}
+
+/*# sourceMappingURL=css.css.map */
