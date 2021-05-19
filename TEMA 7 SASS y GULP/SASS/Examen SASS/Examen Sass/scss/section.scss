@@ -1,0 +1,51 @@
+$tamano-nombre:40px;
+$margenes-estandar: (20px, 15px, 10px, 5px);
+$border-estandar: "2px solid black";
+$anchuras: (100%, 50%);
+$float-izquierda: left;
+$letra-negrita: bold;
+.full-name{
+            span{
+                font-size: $tamano-nombre;
+            }
+}
+
+.contact-info{
+    .separator{
+        margin:nth($margenes-estandar, 3 );
+        border: #{$border-estandar};
+    }
+}
+.header, .details, .section{
+    margin-bottom: nth($margenes-estandar , 1 );
+}
+.section__list-item{
+    width: nth($anchuras,1 );
+    float: $float-izquierda;
+    margin-bottom: nth($margenes-estandar, 3);
+    .left, .right{
+        width: nth($anchuras,2 );
+        float: $float-izquierda;
+    }
+}
+.left, .right{
+    div{
+        &:first-child{
+        font-weight: $letra-negrita;
+        }
+    }
+}
+.name{
+    &:first-child{
+        font-weight: $letra-negrita;
+    }
+}
+
+.section{
+    &:last-of-type{
+        .section__title{
+            margin-bottom: nth($margenes-estandar , 1 );            
+        }
+    }
+}
+

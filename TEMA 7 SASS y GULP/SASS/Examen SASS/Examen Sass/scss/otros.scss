@@ -1,0 +1,16 @@
+$centrado-container: "20px auto";
+
+
+@include resetear;
+.container{
+    @include centrado(#{$centrado-container}, 90%);
+}
+
+
+@for $var from 1 to 5 {
+    .section:nth-of-type(#{$var}) .section__title:first-child{
+        color: colorSectionTitle($var);
+        border-bottom: #{$border-estandar};
+        margin-bottom: nth($margenes-estandar , 3 );
+    }
+}
