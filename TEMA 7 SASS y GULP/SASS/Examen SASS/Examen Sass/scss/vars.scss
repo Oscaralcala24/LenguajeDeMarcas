@@ -1,0 +1,14 @@
+$fondo-claro: rgb(197, 194, 194);
+$fondo-oscuro: rgb(54, 53, 53);
+$tema-claro: true;
+
+$lista-colores: (red, green, orange, purple);
+
+body{
+    @if ($tema-claro == true){
+        background-color: $fondo-claro;
+    } 
+    @else{
+        background-color: $fondo-oscuro;
+    }
+}

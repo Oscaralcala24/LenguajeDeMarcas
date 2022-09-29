@@ -1,0 +1,3 @@
+@function colorSectionTitle($numero){
+    @return nth($lista-colores, $numero);
+}

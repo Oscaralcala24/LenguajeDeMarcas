@@ -1,0 +1,74 @@
+body {
+  background-color: #c5c2c2;
+}
+
+.full-name span {
+  font-size: 40px;
+}
+
+.contact-info .separator {
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.header, .details, .section {
+  margin-bottom: 20px;
+}
+
+.section__list-item {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+}
+.section__list-item .left, .section__list-item .right {
+  width: 50%;
+  float: left;
+}
+
+.left div:first-child, .right div:first-child {
+  font-weight: bold;
+}
+
+.name:first-child {
+  font-weight: bold;
+}
+
+.section:last-of-type .section__title {
+  margin-bottom: 20px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 90%;
+}
+
+.section:nth-of-type(1) .section__title:first-child {
+  color: red;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.section:nth-of-type(2) .section__title:first-child {
+  color: green;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.section:nth-of-type(3) .section__title:first-child {
+  color: orange;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.section:nth-of-type(4) .section__title:first-child {
+  color: purple;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=css.css.map */
